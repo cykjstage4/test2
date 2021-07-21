@@ -1,0 +1,17 @@
+
+
+spring:
+  application:
+    name: client-test1
+
+#服务端口
+server:
+  port: 8086
+
+# 注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7890/eureka/
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cykj.mapper.UserMapper">
+
+    <!--学生登录-->
+    <select id="studentLogin" parameterType="com.cykj.bean.User" resultType="com.cykj.bean.User">
+
+    </select>
+
+</mapper>

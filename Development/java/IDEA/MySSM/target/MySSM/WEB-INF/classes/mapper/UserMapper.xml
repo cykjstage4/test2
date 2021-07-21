@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cykj.mapper.UserMapper">
+    <select id="checkLogin" resultType="com.cykj.bean.User">
+        select * from user where acc = #{acc} and pwd = #{pwd}
+    </select>
+    <select id="selectAllUser" resultType="com.cykj.bean.User">
+        select * from user
+    </select>
+    <delete id="DeleteUser" parameterType="String">
+        delete from user where id = #{id}
+    </delete>
+</mapper>

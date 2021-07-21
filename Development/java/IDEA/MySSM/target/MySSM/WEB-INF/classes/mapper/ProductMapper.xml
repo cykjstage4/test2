@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cykj.mapper.ProductMapper">
+    <select id="selectProduct" resultType="com.cykj.bean.ProductTable">
+        select * from ProducInformation
+    </select>
+    <select id="queryProduct" resultType="com.cykj.bean.ProductTable">
+        select * from ProducInformation where ID = #{ID}
+    </select>
+    <update id="updataProduct" parameterType="com.cykj.bean.ProductTable">
+        update ProducInformation set Name = #{name},number = #{number},StartingPrice = #{stattingPrice},type = #{type},img = #{img},brief = #{brief} where id = #{ID};
+    </update>
+</mapper>

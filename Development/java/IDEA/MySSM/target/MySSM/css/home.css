@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+
+.clearfix{
+	clear:both;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.home{
+    margin: auto;
+    /* background-color: red;  */
+    width: 1200px; 
+    height: 700px;
+    
+    
+}
+.banner{
+    float: left;
+    background-color: rgb(0, 217, 255); 
+    width: 1200px; 
+    height: 120px;
+
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.userInformation{
+    /* background-color: rgb(255, 0, 0);  */
+    width: 400px; 
+    height: 120px;
+}
+.headimage{
+    margin-top: 30px;
+    width:40px; 
+    height:40px;
+}
+.userinf{
+    /* background-color: rgb(255, 0, 0); */
+    margin-top: 35px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.out{
+    margin-top: 10px;
+    width:20px; 
+    height:20px;
+}
+.outa{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+.menu{
+    background-color: rgb(0, 195, 255);
+    width: 200px;
+    height: 580px;
+}
+.operationMenu{
+    width: 200px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+}
+.time{
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 1200px;
+    height: 40px;
+    background-color: rgb(0, 217, 255); 
+
+}
+.time{
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 1200px;
+    height: 40px;
+    background-color: rgb(0, 217, 255); 
+
+}
+.time2{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 940px;
+    margin-top: 10px;
+}
+#datetime{
+    width: 180px;
+    margin-top: 10px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.menucontent{
+    margin-top: 10px;
+    width: 1200px;
+    height: 580px;
+}
+.content{
+    margin-left: 10px;
+    width: 990px;
+    height: 580px;
+    /* background-color: rgb(0, 217, 255);  */
+}
+.path{
+    font-size: 20px;
+    color: rgb(0, 119, 255);
+   
+}
+.contentInformation{
+    border:3px solid rgb(0, 195, 255) ;
+    width: 990px;
+    height: 550px;
+}
+.Information{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 195, 255);
+    width: 990px;
+    height: 30px;
+}
+.tible{
+    width: 990px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+.Operation{
+    margin-right: 50px;
+}
+.menuInformation ul il{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
